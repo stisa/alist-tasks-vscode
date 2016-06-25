@@ -2,7 +2,7 @@ Various vscode tasks files
 ==========================
 
 This is a list of [vscode](https://code.visualstudio.com) `tasks.json` files to automate some simple
-commands, without having to write extensions.
+commands, without having to write extensions.  
 Saving them here so I avoid losing them. 
 
 
@@ -74,8 +74,8 @@ Nim
 }
 ```
 
-You can add `"-d:<something>"` to `args` to pass a definition, eg:
-`"-d:openblas"` defines openblas, for example when using `linalg`.
+You can add `"-d:<something>"` to `args` to pass a definition, eg:  
+`"-d:openblas"` defines openblas, for example when using `linalg`.  
 Or simply create a `nim.cfg` file and put `define: <something>` inside.
 
 Julia
@@ -117,7 +117,7 @@ Octave
 Flow
 ----
 
-Flow is a build tool for haxe, mainly used by snowkit projects.
+Flow is a build tool for haxe, mainly used by snowkit projects.  
 **Note**: Defaults to building the `web` target.
 
 ``` json
