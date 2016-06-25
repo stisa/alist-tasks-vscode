@@ -1,16 +1,19 @@
 Various vscode tasks files
 ==========================
 
-This is a list of [vscode]() `tasks.json` files to automate some simple commands, mainly
-builds, tests, etc. without having to write extensions.
+This is a list of [vscode](https://code.visualstudio.com) `tasks.json` files to automate some simple
+commands, without having to write extensions.
+Saving them here so I avoid losing them. 
 
-## Table of Contents
 
-- [Pandoc](#Pandoc)
-- [Nim](#Nim)
-- [Julia](#Julia)
-- [Octave](#Octave)
-- [Flow](#Flow)
+Table of Contents
+-----------------
+
+- [Pandoc](#pandoc)
+- [Nim](#nim)
+- [Julia](#julia)
+- [Octave](#octave)
+- [Flow](#flow)
 
 ---
 
@@ -51,13 +54,13 @@ Nim
     "tasks": [
         {
             "taskName": "run build",
-            "args": ["c","-r","project.nim"],
+            "args": ["c","-r","<project>.nim"],
             "isBuildCommand": true,
             "suppressTaskName": true                   
         },
         {
             "taskName": "run tests",
-            "args": ["c", "-r","tests/project.nim"],
+            "args": ["c", "-r","tests/<project>.nim"],
             "isTestCommand": true, 
             "suppressTaskName": true          
         },
